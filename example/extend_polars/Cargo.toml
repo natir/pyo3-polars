@@ -13,5 +13,5 @@ pyo3 = { version = "0.19", features = ["extension-module"] }
 pyo3-polars = { version = "*", path = "../../pyo3-polars", features = ["lazy"] }
 polars-core = { version = "0.32.0" }
 polars-lazy =  "*"
-polars = { version = "0.32.0", features = ["fmt"] }
+polars = { version = "0.32.0", features = ["fmt", "lazy", "dtype-struct"] }
 rayon = "1.6"
